@@ -134,8 +134,8 @@
                 "text": "Usuario Anónimo"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -232,25 +232,11 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "10e6e822-6c53-4a3b-87a3-c68acf01b989",
-                  "title": "Suplantación de identidad de usuario",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Spoofing / Spoofing",
-                  "description": "Uso de credenciales robadas o sesiones secuestradas para hacerse pasar por un usuario autenticado o administrador.",
-                  "mitigation": "HTTPS / TLS en todas las comunicaciones\nAutenticación fuerte (MFA + tokens con expiración)",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 0,
                 "repudiation": 0
               }
             }
@@ -269,8 +255,8 @@
                 "text": "Usuario Autenticado"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -367,39 +353,12 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "bca10b6b-c353-4535-873b-03c951243e51",
-                  "title": "Manipulación de mensajes hacia el sistema externo",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Repudiation / Repudiación",
-                  "description": "Alteración de mensajes enviados a la entidad externa (IDs, montos, estados).",
-                  "mitigation": "HTTPS / TLS en todas las comunicaciones\nValidación de integridad y reglas de negocio en backend",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 4,
-                  "score": ""
-                },
-                {
-                  "id": "9a384dec-e69f-460a-a48c-1e524a6f536f",
-                  "title": "Nueva amenaza STRIDE",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing / Spoofing",
-                  "description": "Introduzca una descripción para esta amenaza",
-                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 7,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
                 "spoofing": 0,
-                "repudiation": 1
+                "repudiation": 0
               }
             }
           },
@@ -1143,8 +1102,8 @@
                 "text": "Autenticación"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1241,59 +1200,19 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "2267104d-6a59-43eb-b832-47b8938f602c",
-                  "title": "Suplantación de identidad de usuario",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Spoofing / Spoofing",
-                  "description": "Uso de credenciales robadas o sesiones secuestradas para hacerse pasar por un usuario autenticado o administrador.",
-                  "mitigation": "HTTPS / TLS en todas las comunicaciones\nAutenticación fuerte (MFA + tokens con expiración)",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 1,
-                  "score": ""
-                },
-                {
-                  "id": "3f015d60-066f-42cf-8e5f-a391d1e1e752",
-                  "title": "Uso indebido de privilegios de administrador",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Elevation of privilege / Elevación de privilegios",
-                  "description": "Una mala gestión de roles o validación de permisos en el proceso de autenticación podría permitir que un usuario obtenga privilegios superiores, accediendo a funciones administrativas sin autorización o utilizando indebidamente credenciales de administrador.",
-                  "mitigation": "Control de acceso basado en roles (RBAC)\nSeparación de funciones administrativas\nLogs inmutables y auditoría de acciones de admin\nAutenticación fuerte (MFA) para administrador",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 12,
-                  "score": ""
-                },
-                {
-                  "id": "581992d5-4aeb-4b6d-830b-198260ba9989",
-                  "title": "Nueva amenaza STRIDE",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering / Manipulación",
-                  "description": "Introduzca una descripción para esta amenaza",
-                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 13,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 0,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
-                "elevationOfPrivilege": 2
+                "elevationOfPrivilege": 1
               }
             }
           },
@@ -1311,8 +1230,8 @@
                 "text": "Cobro"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1409,30 +1328,16 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "45e827f5-60d3-4bbb-8bbf-907312995698",
-                  "title": "Repudio de una transacción de cobro",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Repudiation / Repudiación",
-                  "description": "Un usuario niega haber realizado una transacción debido a la falta de logs o trazabilidad.",
-                  "mitigation": "Logs inmutables y auditoría",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 5,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
                 "spoofing": 0,
                 "tampering": 0,
-                "repudiation": 1,
+                "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
@@ -1573,13 +1478,11 @@
                 "text": "Base de Datos"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1676,30 +1579,16 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": [
-                {
-                  "id": "0d3c2276-6115-4d54-a521-24dec17decef",
-                  "title": "Repudio de una transacción de cobro",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Repudiation / Repudiación",
-                  "description": "Un usuario niega haber realizado una transacción debido a la falta de logs o trazabilidad.",
-                  "mitigation": "Logs inmutables y auditoría",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 6,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
                 "tampering": 0,
-                "repudiation": 1,
+                "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
