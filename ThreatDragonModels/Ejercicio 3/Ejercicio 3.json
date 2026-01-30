@@ -16,7 +16,87 @@
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.5.0",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 139.99999999999926,
+              "y": 60.00000000000023
+            },
+            "size": {
+              "width": 220,
+              "height": 480
+            },
+            "attrs": {
+              "label": {
+                "text": "Frontend"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "3f0f1d92-7faa-4b57-8829-097dc2358b64",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Frontend",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
+          },
+          {
+            "position": {
+              "x": 359.99999999999955,
+              "y": 60.00000000000071
+            },
+            "size": {
+              "width": 580,
+              "height": 350
+            },
+            "attrs": {
+              "label": {
+                "text": "Backend"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "67bac4c7-a863-48f2-a5e2-2aa25c4d84b5",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Backend",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
+          },
+          {
+            "position": {
+              "x": 359.9999999999993,
+              "y": 410.00000000000017
+            },
+            "size": {
+              "width": 580,
+              "height": 130
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "00cfe3d1-2a7d-402d-8712-72d54a25285c",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Límite de confianza",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
