@@ -518,13 +518,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1266,6 +1259,19 @@
                   "new": false,
                   "number": 1,
                   "score": ""
+                },
+                {
+                  "id": "3f015d60-066f-42cf-8e5f-a391d1e1e752",
+                  "title": "Uso indebido de privilegios de administrador",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege / Elevación de privilegios",
+                  "description": "Una mala gestión de roles o validación de permisos en el proceso de autenticación podría permitir que un usuario obtenga privilegios superiores, accediendo a funciones administrativas sin autorización o utilizando indebidamente credenciales de administrador.",
+                  "mitigation": "Control de acceso basado en roles (RBAC)\nSeparación de funciones administrativas\nLogs inmutables y auditoría de acciones de admin\nAutenticación fuerte (MFA) para administrador",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -1274,8 +1280,15 @@
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 2
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1954,6 +1967,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 12
   }
 }
