@@ -1365,7 +1365,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Proxy"
+                "text": "Proxy Asíncrono"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -1464,7 +1464,7 @@
             "id": "94ef37ab-1907-4d4e-a62b-6b3ebbcd2d25",
             "data": {
               "type": "tm.Store",
-              "name": "Proxy",
+              "name": "Proxy Asíncrono",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
