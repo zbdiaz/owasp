@@ -1272,6 +1272,19 @@
                   "new": false,
                   "number": 12,
                   "score": ""
+                },
+                {
+                  "id": "581992d5-4aeb-4b6d-830b-198260ba9989",
+                  "title": "Nueva amenaza STRIDE",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering / Manipulación",
+                  "description": "Introduzca una descripción para esta amenaza",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 13,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -1706,13 +1719,11 @@
                 "text": "Proxy Asíncrono"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1809,33 +1820,26 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": [
-                {
-                  "id": "ad500a0c-d8be-4066-99fd-86f8cf13f287",
-                  "title": "Manipulación de mensajes hacia el sistema externo",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering / Manipulación",
-                  "description": "Alteración de mensajes enviados a la entidad externa (IDs, montos, estados).",
-                  "mitigation": "HTTPS / TLS en todas las comunicaciones\nValidación de integridad y reglas de negocio en backend",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 3,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1960,6 +1964,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 12
+    "threatTop": 13
   }
 }
